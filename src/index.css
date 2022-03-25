@@ -1,13 +1,31 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Quicksand:wght@300&display=swap');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Mulish", sans-serif;
+}
+body{
+  background-color: #ffdeff;
+}
+h1{
+  text-align: center;
+  margin: 20px;
+  color: #2c1202;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.post{
+  margin: 10px auto;
+  max-width: 500px;
+  padding: 10px;
+  background-color: coral;
+}
+.post h3{
+  text-align: centre;
 }
